@@ -14,6 +14,56 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Theme Name: Savona
 Theme URI: http://optimathemes.com/savona-free/
 Author: Aslamnaik
@@ -314,6 +364,56 @@ template {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Custom - Theme Specific */
 
 body {
@@ -365,6 +465,11 @@ h1 {
     font-size: 40px;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+
 .fa,
 .fa,
 .fas {
@@ -372,6 +477,56 @@ h1 {
     padding-right: 7px;
     color: #8e6e4c
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -460,7 +615,58 @@ html {
 .main-content {
     padding-top: 40px;
     padding-bottom: 40px;
+    background-image: url(../../uploads/2018/05/bg-noise.jpg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -613,6 +819,56 @@ a img.aligncenter {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Default Styles */
 
 hr {
@@ -682,6 +938,7 @@ h6 {
 
 p {
     margin-bottom: 15px;
+    line.height: 1.6;
 }
 
 blockquote {
@@ -780,6 +1037,56 @@ sup {
     margin-top: 15px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -936,6 +1243,56 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 4.0 Page Header
 --------------------------------------------------------------*/
@@ -945,7 +1302,30 @@ sup {
     height: 500px;
     border-bottom: 1px solid #ebebeb;
     background-position: center center;
+    max-width: 100vw;
+    max-width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
+    .entry-header {
+        background: cover;
+    }
+}
+
+
 
 .header-logo {}
 
@@ -969,6 +1349,56 @@ sup {
     letter-spacing: 1px;
     font-size: 12px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1210,6 +1640,57 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 6.0 Main Navigation
 --------------------------------------------------------------*/
@@ -1244,6 +1725,56 @@ sup {
 #main-nav>div {
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1393,6 +1924,56 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile Menu  */
 
 .mobile-menu-container {
@@ -1451,6 +2032,56 @@ sup {
 #mobile-menu .sub-menu {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1546,6 +2177,56 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 5.3 Search */
 
 #main-nav #searchform {
@@ -1571,6 +2252,56 @@ sup {
 .main-nav-search i:last-of-type {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1718,6 +2449,56 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 7.0 Featured Links
 --------------------------------------------------------------*/
@@ -1757,6 +2538,56 @@ sup {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1973,6 +2804,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 9.0 Post Formats
 --------------------------------------------------------------*/
@@ -2076,6 +2957,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 10.0 Blog Pagination
 --------------------------------------------------------------*/
@@ -2086,6 +3017,56 @@ h1.page-title {
     text-align: center;
     padding: 0px 0 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2171,6 +3152,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 10.2 Numeric */
 
 .blog-pagination.numeric a,
@@ -2198,6 +3229,56 @@ h1.page-title {
     margin-left: 0;
     margin-right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2296,6 +3377,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 11.0 Blog Single
 --------------------------------------------------------------*/
@@ -2318,6 +3449,56 @@ h1.page-title {
     border-width: 1px;
     border-style: solid;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2434,12 +3615,112 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Post Pagination */
 
 .single-pagination {
     padding: 20px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2544,6 +3825,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Related Post */
 
 .related-posts {
@@ -2589,6 +3920,56 @@ h1.page-title {
 .related-posts section:last-of-type {
     margin-right: 0 !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2796,6 +4177,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 13.0 Default Gallery
 --------------------------------------------------------------*/
@@ -2867,6 +4298,56 @@ h1.page-title {
     width: -webkit-calc((100% - (5px * 8)) / 9);
     width: calc((100% - (5px * 8)) / 9);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3026,6 +4507,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Search */
 
 .widget_search #searchform {
@@ -3054,6 +4585,56 @@ h1.page-title {
     width: auto !important;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3137,6 +4718,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* TagCloud */
 
 .tagcloud a {
@@ -3150,6 +4781,56 @@ h1.page-title {
     border-style: solid;
     border-width: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3273,6 +4954,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Social Widget */
 
 .savona_social_widget .social-icons {
@@ -3289,6 +5020,56 @@ h1.page-title {
 .savona_social_widget .social-icons a:last-child {
     margin-right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3404,6 +5185,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Featured Posts Widget */
 
 .rpwwt-widget ul li {
@@ -3464,11 +5295,111 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Facebook Widget */
 
 .widget_fbw_id .loader {
     display: none !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3577,6 +5508,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact form 7 */
 
 .wpcf7 input[type="text"],
@@ -3641,6 +5622,58 @@ h1.page-title {
 
 
 
+h2 footer {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3687,6 +5720,7 @@ h1.page-title {
 
 .footer-widgets .widget-title {
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .credit {
@@ -3750,6 +5784,56 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 16.0 Typography
 --------------------------------------------------------------*/
@@ -3758,6 +5842,56 @@ body {
     font-size: 15px;
     line-height: 24.6px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3800,6 +5934,56 @@ p {
     font-size: 16px;
     font-family: 'Raleway', 'Open Sans';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3916,6 +6100,56 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Headings Fonts */
 
 .post-content>p:first-child:first-letter,
@@ -3936,6 +6170,56 @@ h6,
     font-weight: 400;
     text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4068,6 +6352,56 @@ body,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Font Size 11px */
 
 .woocommerce #page-content ul.products li.product .button,
@@ -4110,12 +6444,112 @@ body,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* letter-spacing 2+ */
 
 .woocommerce #page-content ul.products li.product .button,
 #page-content .woocommerce ul.products li.product .button {
     letter-spacing: 2px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4188,6 +6622,56 @@ body,
 .woocommerce-pagination span {
     font-size: 11px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4297,6 +6781,56 @@ body,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 18.0 Preloader
 --------------------------------------------------------------*/
@@ -4318,6 +6852,56 @@ body,
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4408,4 +6992,102 @@ body,
 
 .sovona-widget ul {
     padding: 10px;
+}
+
+.widget-title {
+    background-color: lightblue;
+}
+
+.widget-title h2 {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MISC */
+
+#page-footer,
+#page-footer a,
+#page-footer select,
+#page-footer input,
+#page-footer textarea {
+    color: orange!important;
+}
+
+footer.page-footer-inner {
+    background-color: #222
+}
+
+.star {
+    display: inline-block!important;
+    padding-right: 4px;
+    padding-bottom: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.page-footer-inner {
+    display: block;
+    position: relative;
+    bottom: 0!important;
+}
+
+footer#page-footer {
+    background-color: #222
+}
+
+address,
+.textwidget .custom-html-widget {
+    line-height: 45px!important;
+    font-variant: normal!important;
+    font-weight: normal;
+}
+
+.custom-html-widget:after {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+}
+
+.testimonial {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.testimonial-name {
+    font-size: 12px;
+    font-weight: 900;
 }

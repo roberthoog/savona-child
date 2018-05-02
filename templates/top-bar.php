@@ -23,8 +23,8 @@
 		}
 
 		?>
-<p>666</p>
 
 	</div>
 </div><!-- #top-bar -->
+
 <?php endif; ?>
