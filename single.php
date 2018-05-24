@@ -21,23 +21,28 @@
 		<?php
 
 		// Single Post
-		get_template_part( 'templates/single/post', 'content' );
-
+		get_template_part( 'templates/single/post', 'content' )
+		. "<hr>";
 		// Author Description
-		if ( savona_options( 'single_page_show_author_desc' ) === true ) {
-			get_template_part( 'templates/single/author', 'description' );
-		}
+		// if ( savona_options( 'single_page_show_author_desc' ) === true ) {
+		// 	get_template_part( 'templates/single/author', 'description' ) ;
+		// }
+		?>
+		
+		
 
-		// Single Navigation
+		<?php 		// Single Navigation
 		if ( savona_options( 'single_page_show_author_nav' ) === true ) {
 			get_template_part( 'templates/single/single', 'navigation' );
 		}
-	
+		?>
+		<hr>
+		<?php
 		// Related Posts
-		if ( savona_options( 'single_page_related_orderby' ) !== 'none' ) {
+		/*if ( savona_options( 'single_page_related_orderby' ) !== 'none' ) {
 			savona_related_posts( savona_options( 'single_page_related_title' ), savona_options( 'single_page_related_orderby' ) );
 		}
-
+	*/
 		// Comments
 		if ( savona_options( 'single_page_show_comments_area' ) === true ) {
 			get_template_part( 'templates/single/comments', 'area' );

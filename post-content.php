@@ -53,7 +53,7 @@ if ( have_posts() ) :
 
 		?>
 	</div>
-<hr>
+
 	<footer class="post-footer">
 
 		<?php 
@@ -67,9 +67,8 @@ if ( have_posts() ) :
 
 		?>
 
-<!-- 		<?php if ( savona_options( 'single_page_show_author' ) === true ) : ?>
+		<?php if ( savona_options( 'single_page_show_author' ) === true ) : ?>
 		<span class="post-author"><?php esc_html_e( 'By', 'savona' ); ?>&nbsp;<?php the_author_posts_link(); ?></span>
-		 -->
 		<?php endif; ?>
 
 		<?php

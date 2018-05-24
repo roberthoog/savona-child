@@ -22,7 +22,7 @@
 
 				<?php if ( display_header_text() ) : ?>
 				<br>
-				<p class="site-description"><?php echo bloginfo( 'description' ); ?></p>
+				<p class="site-description clearfix"><?php echo bloginfo( 'description' ); ?></p>
 				<?php endif; ?>
 				
 			</div>

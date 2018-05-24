@@ -31,12 +31,7 @@
 				?>
 				</div>
 				
-				<div class="credit">
-					
-					
 				</div>
-
-			</div>
 
 			</div><!-- .boxed-wrapper -->
 

@@ -64,6 +64,47 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Theme Name: Savona
 Theme URI: http://optimathemes.com/savona-free/
 Author: Aslamnaik
@@ -138,12 +179,9 @@ figure {
 }
 
 hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
     border: 0;
     height: 1px;
-    margin: 20px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0))!important;
 }
 
 pre {
@@ -414,6 +452,47 @@ template {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Custom - Theme Specific */
 
 body {
@@ -465,7 +544,7 @@ h1 {
     font-size: 40px;
 }
 
-h1 {
+h2 {
     font-size: 35px;
 }
 
@@ -473,10 +552,51 @@ h1 {
 .fa,
 .fa,
 .fas {
-    font-weight: 900;
-    padding-right: 7px;
-    color: #8e6e4c
+    font-weight: 700;
+    padding-right: 10px;
+    color: #f8d6b1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -600,8 +720,8 @@ html {
 
 .cv-inner {
     display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+    vertical-align: bottom;
+    text-align: left;
 }
 
 .boxed-wrapper {
@@ -617,6 +737,47 @@ html {
     padding-bottom: 40px;
     background-image: url(../../uploads/2018/05/bg-noise.jpg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -869,6 +1030,47 @@ a img.aligncenter {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Default Styles */
 
 hr {
@@ -938,7 +1140,7 @@ h6 {
 
 p {
     margin-bottom: 15px;
-    line.height: 1.6;
+    line-height: 1.85;
 }
 
 blockquote {
@@ -949,10 +1151,12 @@ blockquote {
 
 blockquote p {
     font-family: 'Playfair Display';
-    font-size: 19px;
-    line-height: 30.7px;
+    font-size: 28px;
+    line-height: 40px;
     letter-spacing: 0.5px;
     opacity: 0.9;
+    font-weight: 900;
+    padding: 20px
 }
 
 blockquote a {
@@ -1037,6 +1241,47 @@ sup {
     margin-top: 15px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1293,6 +1538,47 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 4.0 Page Header
 --------------------------------------------------------------*/
@@ -1304,7 +1590,50 @@ sup {
     background-position: center center;
     max-width: 100vw;
     max-width: 100%;
+    overflow: hidden;
+    background-color: #bdb084;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1320,8 +1649,9 @@ sup {
 /* Smartphones (portrait and landscape) ----------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
-    .entry-header {
+    .entry-header img {
         background: cover;
+        max-width: 100vw;
     }
 }
 
@@ -1332,7 +1662,7 @@ sup {
 .header-logo a {
     text-align: left;
     text-transform: uppercase;
-    font-size: 75px;
+    font-size: 65px;
     line-height: 1;
     font-family: 'Playfair Display', 'Times', sans-serif;
     color: #fff;
@@ -1340,15 +1670,59 @@ sup {
 }
 
 .site-description {
+    font-family: 'Raleway';
+    font-weight: 700;
     display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 0;
-    color: #000;
+    padding: 5px;
+    margin: 5px 0 5px 20px;
+    color: #fff;
     text-transform: uppercase;
     font-family: sans-serif;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 13px;
+    background-color: #e08d34;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1691,6 +2065,47 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 6.0 Main Navigation
 --------------------------------------------------------------*/
@@ -1725,6 +2140,47 @@ sup {
 #main-nav>div {
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1974,6 +2430,47 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile Menu  */
 
 .mobile-menu-container {
@@ -2032,6 +2529,47 @@ sup {
 #mobile-menu .sub-menu {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2227,6 +2765,47 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 5.3 Search */
 
 #main-nav #searchform {
@@ -2252,6 +2831,47 @@ sup {
 .main-nav-search i:last-of-type {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2499,6 +3119,47 @@ sup {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 7.0 Featured Links
 --------------------------------------------------------------*/
@@ -2538,6 +3199,47 @@ sup {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2691,7 +3393,6 @@ h1.page-title {
 }
 
 .post-content {
-    text-align: justify;
     overflow: hidden;
 }
 
@@ -2771,6 +3472,47 @@ h1.page-title {
     max-width: 480px;
     margin: 30px auto 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3007,6 +3749,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 10.0 Blog Pagination
 --------------------------------------------------------------*/
@@ -3017,6 +3800,47 @@ h1.page-title {
     text-align: center;
     padding: 0px 0 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3112,6 +3936,7 @@ h1.page-title {
     font-size: 13px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    background-image: url("../../uploads/2018/05/bg-noise.jpg");
 }
 
 .blog-pagination.default .previous-page {
@@ -3121,6 +3946,47 @@ h1.page-title {
 .blog-pagination.default .next-page {
     float: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3229,6 +4095,47 @@ h1.page-title {
     margin-left: 0;
     margin-right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3427,6 +4334,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 11.0 Blog Single
 --------------------------------------------------------------*/
@@ -3449,6 +4397,47 @@ h1.page-title {
     border-width: 1px;
     border-style: solid;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3665,12 +4654,94 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Post Pagination */
 
 .single-pagination {
     padding: 20px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3875,6 +4946,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Related Post */
 
 .related-posts {
@@ -3920,6 +5032,47 @@ h1.page-title {
 .related-posts section:last-of-type {
     margin-right: 0 !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4227,6 +5380,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 13.0 Default Gallery
 --------------------------------------------------------------*/
@@ -4380,6 +5574,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 14.0 Widgets
 --------------------------------------------------------------*/
@@ -4419,7 +5654,7 @@ h1.page-title {
     display: inline-block;
     position: relative;
     font-size: 16px;
-    line-height: 36px;
+    line-height: 25px;
     letter-spacing: 1.5px;
 }
 
@@ -4476,6 +5711,47 @@ h1.page-title {
 .widget_rss img {
     display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4667,6 +5943,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Category */
 
 .widget_categories ul li,
@@ -4768,6 +6085,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* TagCloud */
 
 .tagcloud a {
@@ -4781,6 +6139,47 @@ h1.page-title {
     border-style: solid;
     border-width: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5004,6 +6403,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Social Widget */
 
 .savona_social_widget .social-icons {
@@ -5020,6 +6460,47 @@ h1.page-title {
 .savona_social_widget .social-icons a:last-child {
     margin-right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5235,6 +6716,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Featured Posts Widget */
 
 .rpwwt-widget ul li {
@@ -5264,6 +6786,47 @@ h1.page-title {
     font-size: 13px;
     font-style: italic;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5431,6 +6994,47 @@ h1.page-title {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MailPoet Widgets */
 
 .widget_wysija_cont {
@@ -5477,6 +7081,47 @@ h1.page-title {
     font-family: 'Open Sans';
     padding: 9px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5700,6 +7345,47 @@ h2 footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 15.0 Page Footer
 --------------------------------------------------------------*/
@@ -5752,6 +7438,47 @@ h2 footer {
     cursor: pointer;
     z-index: 20;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5910,6 +7637,47 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Top Menu */
 
 #top-menu li a {
@@ -5934,6 +7702,47 @@ p {
     font-size: 16px;
     font-family: 'Raleway', 'Open Sans';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6150,6 +7959,47 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Headings Fonts */
 
 .post-content>p:first-child:first-letter,
@@ -6170,6 +8020,47 @@ h6,
     font-weight: 400;
     text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6402,6 +8293,47 @@ body,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Font Size 11px */
 
 .woocommerce #page-content ul.products li.product .button,
@@ -6413,6 +8345,47 @@ body,
 .woocommerce-Reviews .woocommerce-review__author {
     font-size: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6581,6 +8554,47 @@ body,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Font Size 13px */
 
 .woocommerce-result-count,
@@ -6622,6 +8636,47 @@ body,
 .woocommerce-pagination span {
     font-size: 11px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6831,6 +8886,47 @@ body,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 18.0 Preloader
 --------------------------------------------------------------*/
@@ -6852,6 +8948,47 @@ body,
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7004,6 +9141,50 @@ body,
     text-transform: uppercase;
 }
 
+.post-content+p::first-line {
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7043,7 +9224,7 @@ body,
 #page-footer select,
 #page-footer input,
 #page-footer textarea {
-    color: orange!important;
+    color: #e08d34!important;
 }
 
 footer.page-footer-inner {
@@ -7090,4 +9271,47 @@ address,
 .testimonial-name {
     font-size: 12px;
     font-weight: 900;
+}
+
+body {
+
+    background-image: url(../../uploads/2018/05/bg-noise.jpg);
+    background-repeat: repeat;
+}
+
+.post-content a {
+    font-style: underline!important;
+}
+
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
 }
